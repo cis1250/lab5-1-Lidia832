@@ -8,7 +8,7 @@
 def get_user_input():
   while True :
     try:
-      num_terms = int(input("Enter the number of Fibonacci terms to generate: ")
+      num_terms = int(input("Enter the number of Fibonacci terms to generate: "))
       if num_terms <= 0:
         print("Please enter a postitive integer.")
       else:
