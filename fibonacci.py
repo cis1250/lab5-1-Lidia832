@@ -40,5 +40,5 @@ def main():
   print_sequence(fib_sequence)
 
 # Run program
-if __name__ == "__main__"
+if __name__ == "__main__":
   main()
