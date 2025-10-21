@@ -13,7 +13,7 @@ def get_user_input():
         print("Please enter a postitive integer.")
       else:
         return num_terms
-  except InputError:
+  except ValueError:
     print("Invalid input. Please enter a valid integer.")
 
 # Generate fibonacci sequence up to n terms.
