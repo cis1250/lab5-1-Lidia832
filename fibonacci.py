@@ -18,7 +18,7 @@ def get_user_input():
 
 # Generate fibonacci sequence up to n terms.
 # Returns the sequence.
-def generate_fiboncacci(n):
+def generate_fibonacci(n):
   sequence = []
   a, b = 0, 1
   for  _ in range (n):
