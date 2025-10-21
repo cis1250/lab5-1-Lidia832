@@ -35,7 +35,7 @@ def get_sentence():
             print("Invalid sentence. Must start with with capital letter, contain at least one word, and end with a punctuation mark.")
 
 #Function to calculate word frequencies
-def calculate_frequencies(sentence)
+def calculate_frequencies(sentence):
     words = []
     frequencies = []
 
